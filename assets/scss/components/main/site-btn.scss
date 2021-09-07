@@ -12,7 +12,7 @@
   cursor: pointer;
 
   &.site-btn--accent {
-    background: $color-button-accent;
+    background: red;
     color: #ffffff;
     box-shadow: 0 20px 30px rgba(125, 147, 178, 0.3);
     border: none;
@@ -27,7 +27,8 @@
       box-shadow: 0 3px 10px rgba(125, 147, 178, 0.75);
     }
 
-    &.disable, &.disable:hover {
+    &.disable,
+    &.disable:hover {
       background: $color-button-accent;
       box-shadow: 0 20px 30px rgba(125, 147, 178, 0.3);
       color: rgba(255, 255, 255, 0.3);
@@ -110,7 +111,6 @@
   }
 
   @media screen and (max-width: 768px) {
-
     &.site-btn--right {
       float: none;
     }
@@ -118,7 +118,6 @@
     &.site-btn--left {
       float: none;
     }
-
   }
 }
 
