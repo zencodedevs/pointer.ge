@@ -8,7 +8,9 @@
     margin-bottom: 35px;
     transition: all 0.3s;
   }
-
+  .header-home_title-center {
+    text-align: center;
+  }
   .header-home__title--big {
     width: 100%;
   }
@@ -95,7 +97,6 @@
     }
 
     .header-home__btn {
-
       &:last-child {
         margin-right: 15px;
         margin-left: 15px;
@@ -114,7 +115,8 @@
     background-color: #eff6ff;
   }
 
-  &.header-home--bottom-space, &.header-home--desktop {
+  &.header-home--bottom-space,
+  &.header-home--desktop {
     margin-bottom: 128px;
   }
 
@@ -141,7 +143,6 @@
   }
 
   @media screen and (max-width: 1400px) {
-
     .header-home__webapp-img {
       width: calc(100% - 370px);
       height: auto;
@@ -149,7 +150,6 @@
   }
 
   @media screen and (max-width: 1199px) {
-
     .header-home__title {
       margin-top: 0;
     }
@@ -159,7 +159,8 @@
       width: 700px;
     }
 
-    .header-home__btns-mobile, .header-home__btns-messanger {
+    .header-home__btns-mobile,
+    .header-home__btns-messanger {
       margin-bottom: 165px;
     }
 
@@ -190,8 +191,8 @@
   }
 
   @media screen and (max-width: 989px) {
-
-    .header-home__webapp-img, .header-home__about-img {
+    .header-home__webapp-img,
+    .header-home__about-img {
       display: none;
     }
 
@@ -199,14 +200,12 @@
       width: 490px;
     }
 
-
     .header-home__description--about {
       max-width: 490px;
     }
   }
 
   @media screen and (max-width: 767px) {
-
     .header-home__title {
       width: 100%;
     }

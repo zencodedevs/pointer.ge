@@ -22,7 +22,7 @@ h4 {
   margin: 0;
 }
 
-h5{
+h5 {
   font-size: $font-size-t1;
   line-height: $line-height-t1;
   font-weight: 400;
@@ -30,8 +30,7 @@ h5{
   margin: 0;
 }
 
-
-h6{
+h6 {
   font-size: $font-size-t2;
   line-height: $line-height-t2;
   font-weight: 600;
@@ -39,7 +38,6 @@ h6{
 }
 
 @media screen and (max-width: 480px) {
-
   h2 {
     font-size: $font-size-h2;
     line-height: $line-height-h2;
