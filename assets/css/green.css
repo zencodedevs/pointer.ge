@@ -1734,6 +1734,7 @@ button:active,
 button:focus {
   outline: none;
 }
+
 h2 {
   font-size: 48px;
   line-height: 72px;
@@ -1777,6 +1778,10 @@ h6 {
     font-size: 24px;
     line-height: 36px;
   }
+}
+
+.text-center {
+  text-align: center;
 }
 .header-home {
   margin-top: 190px;
@@ -3163,10 +3168,20 @@ h6 {
   margin: auto 0;
   margin-right: 15px;
 }
-.carousel .carousel__slide-content ul li {
-  margin-left: 10px;
-  text-indent: -10px;
+.carousel .carousel__slide-content ul {
+  margin-top: 0;
 }
+.carousel .carousel__slide-content ul li::before {
+  /* margin-left: 10px;
+  text-indent: -10px; */
+  content: "\2022";
+  color: #42cea9;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+
 .carousel .carousel__slide-img {
   max-width: 620px;
   margin: auto 0 auto auto;
@@ -3220,6 +3235,7 @@ h6 {
   display: -ms-flexbox;
   display: flex;
   margin-bottom: 0;
+  font-size: 14px;
 }
 .carousel .carousel__slider--think {
   width: calc(100% - 50px);
