@@ -230,6 +230,30 @@
   font-weight: 400;
   font-style: normal;
 }
+
+@font-face {
+  font-family: "calibri-light";
+  src: url("../fonts/calibril.eot");
+  src: url("../fonts/calibril.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/calibril.woff2") format("woff2"),
+    url("../fonts/calibril.woff") format("woff"),
+    url("../fonts/calibril.ttf") format("truetype"),
+    url("../fonts/calibril.svg#calibril") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "calibri-bold";
+  src: url("../fonts/calibrib.eot");
+  src: url("../fonts/calibrib.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/calibrib.woff2") format("woff2"),
+    url("../fonts/calibrib.woff") format("woff"),
+    url("../fonts/calibrib.ttf") format("truetype"),
+    url("../fonts/calibrib.svg#calibrib") format("svg");
+  font-weight: 500;
+  font-style: normal;
+}
 .lg-icon {
   font-family: lg;
   speak: none;
@@ -1678,7 +1702,8 @@ html {
   -webkit-tap-highlight-color: transparent;
 }
 body {
-  font-family: Nunito, sans-serif;
+  /* font-family: Nunito, sans-serif; */
+  font-family: "calibri-light";
   font-size: 16px;
   line-height: 32px;
   color: #7d93b2;
@@ -1762,6 +1787,9 @@ h6 {
   margin-top: 90px;
   margin-bottom: 35px;
   transition: all 0.3s;
+}
+.header-home_title-center {
+  text-align: center;
 }
 .header-home .header-home__title--big {
   width: 100%;
