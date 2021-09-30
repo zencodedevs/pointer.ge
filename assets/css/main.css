@@ -2574,6 +2574,14 @@ h6 {
   margin-top: 10px;
   opacity: 1;
 }
+
+.menu .menu__logo-img {
+  display: block;
+  width: 140px;
+}
+.menu .menu__logo-icon {
+  display: none;
+}
 .menu .menu__right-nav {
   float: right;
 }
@@ -2692,6 +2700,14 @@ h6 {
 }
 .menu.menu--active .menu__logo-title {
   opacity: 0;
+}
+.menu.menu--active .menu__logo-img {
+  display: none;
+}
+.menu.menu--active .menu__logo-icon {
+  width: 48px;
+  height: 48px;
+  display: block;
 }
 @media screen and (max-width: 990px) {
   .menu .menu__right-nav {
