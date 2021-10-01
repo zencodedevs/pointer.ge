@@ -3980,6 +3980,9 @@ h6 {
 .pricing.pricing--toggle .pricing__card {
   max-width: 520px;
 }
+.first-info {
+  min-height: 96px;
+}
 .pricing.pricing--toggle .pricing__card-price--year {
   opacity: 0;
   transition: all 0.3s;
