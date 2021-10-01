@@ -3107,7 +3107,7 @@ h6 {
   padding-left: 0;
 }
 .integrate.integrate--calculator .intagrate__logo {
-  margin-bottom: 50px;
+  /* margin-bottom: 50px; */
 }
 @media screen and (max-width: 768px) {
   .integrate .integrate__card {
@@ -4014,11 +4014,11 @@ h6 {
 }
 .pricing.pricing--toggle .pricing__card-price-save {
   position: absolute;
-  right: 8px;
+  right: 7px;
   color: #fff;
-  bottom: -8px;
+  bottom: -5px;
   z-index: 1;
-  font-size: 14px;
+  font-size: 12px;
   line-height: 16px;
 }
 .pricing.pricing--toggle .pricing__card--year .pricing__card-price--year {
