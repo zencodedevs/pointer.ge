@@ -2431,6 +2431,9 @@ h6 {
 .link.link--gray {
   color: #7d93b2;
 }
+.pl-20 {
+  padding-left: 20px;
+}
 .link.link--gray:hover {
   color: #42cea9;
 }
