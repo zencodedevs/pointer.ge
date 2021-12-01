@@ -1794,6 +1794,10 @@ h6 {
   margin-bottom: 35px;
   transition: all 0.3s;
 }
+
+.background .header-home__title {
+  width: auto;
+}
 .header-home_title-center {
   text-align: center;
 }
@@ -6734,15 +6738,21 @@ h6 {
   background: #fff;
   width: 100%;
   color: #000;
-  padding: 15px 20px;
+  padding: 10px 20px;
   border-top: 1px solid #42cea9;
+  text-align: center;
 }
 
 .title-wrap h4 {
   color: #000 !important;
   font-size: 20px !important;
 }
+.content-wrap {
+  width: 62%;
 
+  margin-left: auto;
+  margin-right: auto;
+}
 .content-wrap .msg-wrap {
   display: flex;
   align-items: center;
@@ -6752,4 +6762,5 @@ h6 {
 .content-wrap .msg-wrap p {
   margin: 0 !important;
   width: 80%;
+  line-height: 20px;
 }
