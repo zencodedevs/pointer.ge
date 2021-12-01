@@ -1511,6 +1511,7 @@ html {
 }
 body {
   margin: 0;
+  position: relative;
 }
 article,
 aside,
@@ -6723,4 +6724,32 @@ h6 {
   .col-offset-6 {
     margin-left: 50%;
   }
+}
+
+/* Cookie Consent */
+
+.cookieNotice {
+  position: fixed;
+  bottom: 0;
+  background: #fff;
+  width: 100%;
+  color: #000;
+  padding: 15px 20px;
+  border-top: 1px solid #42cea9;
+}
+
+.title-wrap h4 {
+  color: #000 !important;
+  font-size: 20px !important;
+}
+
+.content-wrap .msg-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.content-wrap .msg-wrap p {
+  margin: 0 !important;
+  width: 80%;
 }

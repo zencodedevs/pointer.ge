@@ -18,21 +18,23 @@
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-L1FNN5BCWW"></script>
   <!-- Facebook Pixel Code -->
   <script>
-    !function(f,b,e,v,n,t,s)
-    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-    n.queue=[];t=b.createElement(e);t.async=!0;
-    t.src=v;s=b.getElementsByTagName(e)[0];
-    s.parentNode.insertBefore(t,s)}(window, document,'script',
-    'https://connect.facebook.net/en_US/fbevents.js');
+    !function (f, b, e, v, n, t, s) {
+      if (f.fbq) return; n = f.fbq = function () {
+        n.callMethod ?
+          n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+      };
+      if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
+      n.queue = []; t = b.createElement(e); t.async = !0;
+      t.src = v; s = b.getElementsByTagName(e)[0];
+      s.parentNode.insertBefore(t, s)
+    }(window, document, 'script',
+      'https://connect.facebook.net/en_US/fbevents.js');
     fbq('init', '309650394005630');
     fbq('track', 'PageView');
   </script>
   <noscript><img height="1" width="1" style="display:none"
-    src="https://www.facebook.com/tr?id=309650394005630&ev=PageView&noscript=1"
-  /></noscript>
-  <!-- End Facebook Pixel Code --> 
+      src="https://www.facebook.com/tr?id=309650394005630&ev=PageView&noscript=1" /></noscript>
+  <!-- End Facebook Pixel Code -->
 
   <script>
     window.dataLayer = window.dataLayer || [];
@@ -552,7 +554,23 @@
   <!--Download-->
 
   <div class="footerId"></div>
-
+  <div id="cookieNotice" class="light display-right cookieNotice" style="display: none;">
+    <div id="closeIcon" style="display: none;">
+    </div>
+    <div class="title-wrap">
+      <h4>Cookie Consent</h4>
+    </div>
+    <div class="content-wrap">
+      <div class="msg-wrap">
+        <p>This website uses cookies or similar technologies, to enhance your browsing experience and provide
+          personalized
+          recommendations. By continuing to use our website, you agree to our <a style="color:#115cfa;"
+            href="privacy-policy.html">Privacy Policy</a> and <a style="color:#115cfa;" href="terms-services.html">Terms
+            & Services</a></p>
+        <button class="site-btn site-btn--accent" onclick="acceptCookieConsent();">Accept</button>
+      </div>
+    </div>
+  </div>
   <script src="assets/js/vendor/jquery-2.2.4.min.js"></script>
   <script src="assets/js/vendor/jquery.waypoints.js"></script>
   <script src="assets/js/menu.js"></script>
@@ -563,7 +581,7 @@
   <script src="assets/js/vendor/dragscrollable.min.js"></script>
   <script src="assets/js/vendor/device.js"></script>
   <script src="assets/js/carousel.js"></script>
-
+  <script src="assets/js/cookie-consent.js"></script>
 
   <script>
     $(function () {
