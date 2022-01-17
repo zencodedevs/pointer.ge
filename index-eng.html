@@ -16,23 +16,25 @@
   <link rel="icon" href="assets/img/Logo_32x32.ico" type="image/png">
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-L1FNN5BCWW"></script>
-    <!-- Facebook Pixel Code -->
-    <script>
-      !function(f,b,e,v,n,t,s)
-      {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-      n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-      if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-      n.queue=[];t=b.createElement(e);t.async=!0;
-      t.src=v;s=b.getElementsByTagName(e)[0];
-      s.parentNode.insertBefore(t,s)}(window, document,'script',
+  <!-- Facebook Pixel Code -->
+  <script>
+    !function (f, b, e, v, n, t, s) {
+      if (f.fbq) return; n = f.fbq = function () {
+        n.callMethod ?
+          n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+      };
+      if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
+      n.queue = []; t = b.createElement(e); t.async = !0;
+      t.src = v; s = b.getElementsByTagName(e)[0];
+      s.parentNode.insertBefore(t, s)
+    }(window, document, 'script',
       'https://connect.facebook.net/en_US/fbevents.js');
-      fbq('init', '309650394005630');
-      fbq('track', 'PageView');
-    </script>
-    <noscript><img height="1" width="1" style="display:none"
-      src="https://www.facebook.com/tr?id=309650394005630&ev=PageView&noscript=1"
-    /></noscript>
-    <!-- End Facebook Pixel Code --> 
+    fbq('init', '309650394005630');
+    fbq('track', 'PageView');
+  </script>
+  <noscript><img height="1" width="1" style="display:none"
+      src="https://www.facebook.com/tr?id=309650394005630&ev=PageView&noscript=1" /></noscript>
+  <!-- End Facebook Pixel Code -->
   <script>
     window.dataLayer = window.dataLayer || [];
     function gtag() { dataLayer.push(arguments); }
@@ -65,6 +67,8 @@
               </li>
               <!-- <li><a href="05_features.html" class="link link--gray">ფუნქციები</a></li> -->
               <li><a href="#section-pricing" class="link link--gray">Prices</a></li>
+
+              <li><a href="source-eng.html" class="link link--gray">Source</a></li>
             </ul>
           </nav>
         </div>
@@ -107,6 +111,7 @@
           </li>
 
           <li class="mobile-menu__li"><a href="#section-pricing" class="link link--dark-gray">Prices</a></li>
+          <li class="mobile-menu__li"><a href="source-eng.html" class="link link--dark-gray">Source</a></li>
           <li class="mobile-menu__li mobile-menu__li-collapse"><a class="link link--gray link--gray-active"
               href="index.html">Geo</a></li>
 
