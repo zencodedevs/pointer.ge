@@ -1229,7 +1229,7 @@ body:not(.lg-from-hash)
   position: relative;
   border-radius: 8px;
   margin: 0 auto;
-  margin-bottom: 64px;
+  margin-bottom: 0;
 }
 .carousel .slider-img--big .slick-list {
   max-width: 1330px;
@@ -2096,7 +2096,7 @@ h6 {
   }
 }
 .section {
-  padding-bottom: 128px;
+  padding-bottom: 80px;
   transition: all 0.3s;
 }
 .section.section--last {
@@ -2123,7 +2123,7 @@ h6 {
   margin: 0 auto;
 }
 .section hr {
-  margin-top: 128px;
+  margin-top: 80px;
 }
 .section .section__hr-light,
 .section hr {
@@ -3196,7 +3196,7 @@ h6 {
 }
 
 .carousel .carousel__slide-img {
-  max-width: 620px;
+  max-width: 680px;
   margin: auto 0 auto auto;
   width: 100%;
   box-shadow: 0 8px 15px rgba(125, 147, 178, 0.25);
