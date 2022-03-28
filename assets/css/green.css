@@ -1818,7 +1818,7 @@ h6 {
   width: 490px;
   font-size: 18px;
   line-height: 36px;
-  margin-bottom: 60px;
+  margin-bottom:30px;
   transition: all 0.3s;
 }
 .header-home .header-home__description--big {
@@ -1885,6 +1885,7 @@ h6 {
   /* bottom: 0;
   right: -85px;
   height: 100%; */
+  top: 100px;
   bottom: 150px;
   right: 0px;
   width: 780px;
