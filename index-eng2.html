@@ -1,0 +1,698 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="referrer" content="no-referrer-when-downgrade">
+  <meta name="facebook-domain-verification" content="u51ceo59es6m8l9vn54uhc2nd9qboy" />
+  <!-- <link rel="stylesheet" href="assets/css/main.css" id="main_style"> -->
+  <link rel="stylesheet" href="assets/css/green.css" id="main_style">
+  <link href="https://fonts.googleapis.com/css?family=Nunito:300,400,800" rel="stylesheet">
+  <link href="https://cdn.materialdesignicons.com/2.0.46/css/materialdesignicons.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/jquery-ui.min.css">
+  <title>Pointer</title>
+  <link rel="icon" href="assets/img/Logo_32x32.ico" type="image/png">
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-L1FNN5BCWW"></script>
+  <!-- Facebook Pixel Code -->
+  <script>
+    !function (f, b, e, v, n, t, s) {
+      if (f.fbq) return; n = f.fbq = function () {
+        n.callMethod ?
+          n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+      };
+      if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
+      n.queue = []; t = b.createElement(e); t.async = !0;
+      t.src = v; s = b.getElementsByTagName(e)[0];
+      s.parentNode.insertBefore(t, s)
+    }(window, document, 'script',
+      'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '309650394005630');
+    fbq('track', 'PageView');
+  </script>
+  <noscript><img height="1" width="1" style="display:none"
+      src="https://www.facebook.com/tr?id=309650394005630&ev=PageView&noscript=1" /></noscript>
+  <!-- End Facebook Pixel Code -->
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'G-L1FNN5BCWW');
+  </script>
+</head>
+
+<body>
+  <!--Main menu-->
+  <div class="menu">
+    <div class="container menu__wrapper">
+      <div class="row">
+        <div class="menu__logo menu__item">
+          <a href="index-eng.html">
+            <img src="assets/img/logo.svg" alt="poinetr.ge" class="menu__logo-img">
+            <img src="assets/img/popint-logo-icon.svg" alt="poinetr.ge" class="menu__logo-icon">
+          </a>
+        </div>
+        <div class="menu__item d-t-none">
+          <nav class="menu__center-nav">
+            <ul>
+              <li>
+                <div class="menu__dropdown">
+                  <a class="link link--gray menu__dropdown-btn" href="index-eng.html">Home
+                    <!-- <span><i class="mdi mdi-chevron-down"></i></span> -->
+                  </a>
+                </div>
+              </li>
+              <!-- <li><a href="05_features.html" class="link link--gray">ფუნქციები</a></li> -->
+              <li><a href="#section-pricing" class="link link--gray">Prices</a></li>
+
+              <li><a href="source-eng.html" class="link link--gray">Source</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div class="menu__item">
+          <nav class="menu__right-nav d-l-none">
+            <ul>
+              <li><a href="https://app.pointer.ge/Identity/Account/Register" target="_blank"
+                  class="site-btn site-btn--accent">Try for free</a></li>
+              <li><a href="https://app.pointer.ge/Identity/Account/Login?lang=en" target="_blank"
+                  class="site-btn site-btn--light"> Login</a></li>
+              <li>
+                <a class="link link--gray link--gray-active pl-20" href="index.html">Geo</a>
+              </li>
+            </ul>
+          </nav>
+          <div class="d-none d-t-block">
+            <button type="button" class="menu__mobile-button">
+              <span><i class="mdi mdi-menu" aria-hidden="true"></i></span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--Mobile menu-->
+  <div class="mobile-menu d-none d-t-block">
+    <div class="container">
+      <div class="mobile-menu__logo">
+        <img src="assets/img/popint-logo-icon.svg" alt="poinetr.ge" width="48" height="48">
+      </div>
+      <button type="button" class="mobile-menu__close">
+        <span><i class="mdi mdi-close" aria-hidden="true"></i></span>
+      </button>
+      <nav class="mobile-menu__wrapper">
+        <ul class="mobile-menu__ul">
+          <li class="mobile-menu__li mobile-menu__li-collapse">
+            <a class="link link--dark-gray" href="index-eng.html">Home
+              <!-- <span><i class="mdi mdi-chevron-down"></i></span> -->
+            </a>
+          </li>
+
+          <li class="mobile-menu__li"><a href="#section-pricing" class="link link--dark-gray">Prices</a></li>
+          <li class="mobile-menu__li"><a href="source-eng.html" class="link link--dark-gray">Source</a></li>
+          <li class="mobile-menu__li mobile-menu__li-collapse"><a class="link link--gray link--gray-active"
+              href="index.html">Geo</a></li>
+
+        </ul>
+      </nav>
+    </div>
+  </div>
+
+  <!--Header-->
+  <header class="header-home header-home--color">
+    <div class="container">
+      <h3 class="header-home_title-center">Pointer - a loyal friend of recruiters!</h3>
+      <div class="row header-home__webapp-img-wrap">
+        <img alt="" class="header-home__webapp-img" src="assets/img/img_bg_webapp_1.png" style="bottom: 60px;">
+        <div class="col-12">
+          <h3 class="header-home__title">Easy and affordable selection platform for your business!</h3>
+          <p class="header-home__description header-home__description--webapp">Pointer is a cloud based solution that
+            offers everything you need to select a candidate in one space.</p>
+
+          <p class="header-home__description header-home__description--webapp" style="font-weight: 700;">
+            Book a quick 15-min demo with our team to get a glimpse of the Pointer experience</p>
+          <div class="header-home__btns header-home__btns-webapp">
+            <a href="https://calendly.com/zencode/gettoknow" target="_blank"
+              class="site-btn site-btn--accent header-home__btn">Book a demo</a>
+            <a href="https://app.pointer.ge/Identity/Account/Register" target="_blank"
+              class="site-btn site-btn--invert header-home__btn">Try for free</a>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!--Header-->
+
+  <!--Trusted by-->
+  <div class="section section--first">
+    <div class="container">
+      <div class="row logo">
+        <div class="col-12">
+          <div class="logo__row">
+            <p>Used by over 1,000,000 people worldwide</p>
+            <div class="logo__logos">
+              <img alt="" class="logo__img-mini" src="assets/img/img_logo_blue_1.png">
+              <img alt="" class="logo__img-mini" src="assets/img/img_logo_blue_2.png">
+              <img alt="" class="logo__img-mini" src="assets/img/img_logo_blue_3.png">
+              <img alt="" class="logo__img-mini" src="assets/img/img_logo_blue_4.png">
+              <img alt="" class="logo__img-mini" src="assets/img/img_logo_blue_5.png">
+              <img alt="" class="logo__img-mini" src="assets/img/img_logo_blue_6.png">
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr>
+    </div>
+  </div> 
+  <!--Trusted by -->
+
+  <!--Features-->
+  <!-- <section class="section section--first">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <h3 class="section__title">Change the recruiting routine with automation and
+            Spend time only on important issues!
+
+          </h3>
+          <p class="section__description">Pointer integrates social and professional networks, employment portals and is
+            the most intuitive and modern tracking
+            tool to easily reach the best candidates for your vacancy.</p>
+        </div>
+      </div>
+      <div class="row carousel">
+        <div class="col-12">
+          <div class="carousel__navigation">
+            <ul id="carousel__navigation-feature-slider" class="carousel__navigation-items" role="tablist">
+              <li class="carousel__navigation-item slick-active" role="presentation" tabindex="0">
+                <img src="assets/img/icons/icn-jobm.svg" width="120" height="120">
+                <p>Vacancy Management</p>
+              </li>
+              <li class="carousel__navigation-item" role="presentation" tabindex="1">
+                <img src="assets/img/icons/icn-applicationm.svg" width="120" height="120">
+                <p>Application Management</p>
+              </li>
+              <li class="carousel__navigation-item" role="presentation" tabindex="2">
+                <img src="assets/img/icons/icn-candidatem.svg" width="120" height="120">
+                <p>Candidate Management</p>
+              </li>
+              <li class="carousel__navigation-item" role="presentation" tabindex="3">
+                <img src="assets/img/icons/icn-actions.svg" width="120" height="120">
+                <p>Actions</p>
+              </li>
+              <li class="carousel__navigation-item" role="presentation" tabindex="4">
+                <img src="assets/img/icons/icn-reporting.svg" width="120" height="120">
+                <p>Improve performance:</p>
+              </li>
+              <li class="carousel__navigation-item" role="presentation" tabindex="5">
+                <img src="assets/img/icons/icn-calendar.svg" width="120" height="120">
+                <p>Calendar</p>
+              </li>
+              <li class="carousel__navigation-item" role="presentation" tabindex="6">
+                <img src="assets/img/icons/icn-sourceing.svg" width="120" height="120">
+                <p>Sourcing</p>
+              </li>
+              <li class="carousel__navigation-item" role="presentation" tabindex="7">
+                <img src="assets/img/icons/icn-unlimitedaccounts.svg" width="120" height="120">
+                <p>Candidate Portal</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-12">
+          <div class="slider slider-img slider-img--big" id="feature-slider">
+            <div class="carousel__slide">
+              <div class="carousel__slide-content">
+                <h4 class="carousel__slide-title">Vacancy Management:</h4>
+                <div class="carousel__slide-description">
+                  <ul>
+                    <li>Create a vacancy with pre-made templates</li>
+                    <li>Make a preliminary schedule for posting and closing the vacancy</li>
+                    <li>Ability to post internal and external vacancies</li>
+                    <li>Define tags for a vacancy and search with tags</li>
+                    <li>Create an individual application form for vacancies</li>
+                    <li>Post vacancies with one click (jobs.ge, hr.ge, candidate.ge)
+                    </li>
+                    <li>Share a vacancy on a social network</li>
+                    <li>Vacancy cloning</li>
+                    <li>Post all activities for the vacancy, such as: submitting application, moving to stages, etc.
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="carousel__slide-img">
+                <img alt="" src="assets/img/screen/img_feature_screen_2.png">
+              </div>
+            </div>
+            <div class="carousel__slide">
+              <div class="carousel__slide-content">
+                <h4 class="carousel__slide-title">Application management:</h4>
+                <div class="carousel__slide-description">
+                  <ul>
+                    <li>Defining individual stages</li>
+                    <li>Monitoring of received applications</li>
+                    <li>Search for specific keywords in received applications</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="carousel__slide-img">
+                <img alt="" src="assets/img/screen/img_feature_screen_3.png">
+              </div>
+            </div>
+            <div class="carousel__slide">
+              <div class="carousel__slide-content">
+                <h4 class="carousel__slide-title">Candidate Management:</h4>
+                <ul>
+                  <li>Define tags for the candidate and search with tags</li>
+                  <li>Sharing the candidate for an outsider </li>
+                  <li>Profile editing by the recruiter</li>
+                  <li>Join a candidate in a pre-created group</li>
+                  <li>Disqualification of the candidate</li>
+                  <li>Fix the reasons for disqualification</li>
+                  <li>Add a specific candidate to the vacancy</li>
+                  <li>View all vacancies for which the candidate has applied</li>
+                  <li>Make a note, send an email, schedule meetings, make assessments, attach work files</li>
+                </ul>
+              </div>
+              <div class="carousel__slide-img">
+                <img alt="" src="assets/img/screen/img_feature_screen_4.png">
+              </div>
+            </div>
+            <div class="carousel__slide">
+              <div class="carousel__slide-content">
+                <h4 class="carousel__slide-title">Actions:</h4>
+                <p class="carousel__slide-description">The pointer gives you all the action you need to work
+                  effectively:
+                </p>
+                <ul>
+                  <li>Make a record</li>
+                  <li>Send email without leaving the system</li>
+                  <li>Schedule appointments (call, interview, meeting)</li>
+                  <li>Synchronization with personal calendar</li>
+                  <li>Make assessments</li>
+                  <li>Attach work files</li>
+                </ul>
+              </div>
+              <div class="carousel__slide-img">
+                <img alt="" src="assets/img/screen/img_feature_screen_5.png">
+              </div>
+            </div>
+
+            <div class="carousel__slide">
+              <div class="carousel__slide-content">
+                <h4 class="carousel__slide-title">Performance improvement:</h4>
+                <ul>
+                  <li>Automatic confirmation of receipt of application</li>
+                  <li>Rejection template letter</li>
+                  <li>Mark a group member with @ and make a note that the user is notified of</li>
+                  <li>Job vacancy statistics</li>
+                  <li>Unlimited accounts</li>
+                </ul>
+              </div>
+              <div class="carousel__slide-img">
+                <img alt="" src="assets/img/screen/img_feature_screen_6.png">
+              </div>
+            </div>
+            <div class="carousel__slide">
+              <div class="carousel__slide-content">
+                <h4 class="carousel__slide-title">Calendar:</h4>
+                <ul>
+                  <li>Sync with personal calendar</li>
+                  <li>View the calendar of group members</li>
+                </ul>
+              </div>
+              <div class="carousel__slide-img">
+                <img alt="" src="assets/img/screen/img_feature_screen_7.png">
+              </div>
+            </div>
+            <div class="carousel__slide">
+              <div class="carousel__slide-content">
+                <h4 class="carousel__slide-title">Sorting:</h4>
+                <ul>
+                  <li>Coming soon</li>
+                  <li>Integrate candidate data found on linkedin just by copying the link</li>
+                  <li>candidates will be added automatically with the received CV by e-mail</li>
+                </ul>
+              </div>
+              <div class="carousel__slide-img">
+                <img alt="" src="assets/img/screen/img_feature_screen_1.png">
+              </div>
+            </div>
+
+            <div class="carousel__slide">
+              <div class="carousel__slide-content">
+                <h4 class="carousel__slide-title">Candidate Portal</h4>
+                <ul>
+                  <li>All announced vacancies are in one space</li>
+                  <li>Search for vacancies</li>
+                  <li>Apply from the portal</li>
+                  <li>Candidate portal branding</li>
+                </ul>
+              </div>
+              <div class="carousel__slide-img">
+                <img alt="" src="assets/img/screen/img_feature_screen_8.png">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr>
+    </div>
+  </section> -->
+  <!--Features-->
+
+
+    <!--What is-->
+  <section class="section">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <h3 class="section__title">Change the recruiting routine with automation and
+            Spend time only on important issues!</h3>
+          <p class="section__description">Pointer integrates social and professional networks, employment portals and is
+            the most intuitive and modern tracking
+            tool to easily reach the best candidates for your vacancy.</p>
+        </div>
+      </div>
+      <div class="row about-app">
+        <div class="col-6 about-app__description">
+          <div class="about-app__description-content about-app__description-content--left">
+            <img src="assets/img/icons/icn-jobm.svg" width="48" height="48">
+            <h4 class="about-app__description-title">Vacancy Management</h4>
+                <ul>
+                  <li>Create a vacancy with pre-made templates</li>
+                  <li>Make a preliminary schedule for posting and closing the vacancy</li>
+                  <li>Ability to post internal and external vacancies</li>
+                  <li>Define tags for a vacancy and search with tags</li>
+                  <li>Create an individual application form for vacancies</li>
+                  <li>Post vacancies with one click (jobs.ge, hr.ge, candidate.ge)
+                  </li>
+                  <li>Share a vacancy on a social network</li>
+                  <li>Vacancy cloning</li>
+                  <li>Post all activities for the vacancy, such as: submitting application, moving to stages, etc.
+                  </li>
+               </ul>
+          </div>
+        </div>
+        <div class="col-6 about-app__img">
+          <div class="about-app__img-wrap">
+            <img alt="" src="assets/img/screen/img_feature_screen_2.png">
+          </div>
+        </div>
+      </div>
+      <div class="row about-app about-app--reverse">
+        <div class="col-6 about-app__description">
+          <div class="about-app__description-content">
+            <img src="assets/img/icons/icn-applicationm.svg" width="48" height="48">
+            <h4 class="about-app__description-title">Application Management</h4>
+            <ul>
+                    <li>Defining individual stages</li>
+                    <li>Monitoring of received applications</li>
+                    <li>Search for specific keywords in received applications</li>
+                  </ul>
+          </div>
+        </div>
+        <div class="col-6 about-app__img about-app__img--left">
+          <div class="about-app__img-wrap">
+            <img alt="" src="assets/img/screen/img_feature_screen_3.png">
+          </div>
+        </div>
+      </div>
+      <div class="row about-app">
+        <div class="col-6 about-app__description">
+          <div class="about-app__description-content about-app__description-content--left">
+            <img src="assets/img/icons/icn-candidatem.svg" width="48" height="48">
+            <h4 class="about-app__description-title">Candidate Management</h4>
+            <ul>
+                  <li>Define tags for the candidate and search with tags</li>
+                  <li>Sharing the candidate for an outsider </li>
+                  <li>Profile editing by the recruiter</li>
+                  <li>Join a candidate in a pre-created group</li>
+                  <li>Disqualification of the candidate</li>
+                  <li>Fix the reasons for disqualification</li>
+                  <li>Add a specific candidate to the vacancy</li>
+                  <li>View all vacancies for which the candidate has applied</li>
+                  <li>Make a note, send an email, schedule meetings, make assessments, attach work files</li>
+                </ul>
+          </div>
+        </div>
+        <div class="col-6 about-app__img">
+          <div class="about-app__img-wrap">
+            <img alt="" src="assets/img/screen/img_feature_screen_4.png">
+          </div>
+        </div>
+      </div>
+      <div class="row about-app about-app--reverse">
+        <div class="col-6 about-app__description">
+          <div class="about-app__description-content">
+           <img src="assets/img/icons/icn-sourceing.svg" width="48" height="48">
+            <h4 class="about-app__description-title">Sourcing</h4>
+            <ul>
+                  <li>Coming soon</li>
+                  <li>Integrate candidate data found on linkedin just by copying the link</li>
+                  <li>candidates will be added automatically with the received CV by e-mail</li>
+                </ul>
+          </div>
+        </div>
+        <div class="col-6 about-app__img about-app__img--left">
+          <div class="about-app__img-wrap">
+            <img alt="" src="assets/img/screen/img_feature_screen_1.png">
+          </div>
+        </div>
+      </div>
+      <div class="row about-app">
+        <div class="col-6 about-app__description">
+          <div class="about-app__description-content about-app__description-content--left">
+            <img src="assets/img/icons/icn-unlimitedaccounts.svg" width="48" height="48">
+            <h4 class="about-app__description-title">Candidate Portal</h4>
+            <ul>
+                  <li>All announced vacancies are in one space</li>
+                  <li>Search for vacancies</li>
+                  <li>Apply from the portal</li>
+                  <li>Candidate portal branding</li>
+                </ul>
+          </div>
+        </div>
+        <div class="col-6 about-app__img">
+          <div class="about-app__img-wrap">
+            <img alt="" src="assets/img/screen/img_feature_screen_8.png">
+          </div>
+        </div>
+      </div>
+      <hr>
+    </div>
+  </section>
+  <!--What is-->
+
+
+  <!--section__description-->
+  <section class="section">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <!-- <h3 class="section__title">What is Sigma?</h3> -->
+          <div class="section__description">
+            <p>The candidate selection process is the most difficult, time consuming and tedious job for any recruiter,
+              especially if
+              there are vacancies for several different positions.
+            </p>
+
+            <p>However, with the help of a Pointer, things are done much faster and more efficiently.</p>
+          </div>
+        </div>
+      </div>
+      <hr>
+    </div>
+  </section>
+  <!--section__description-->
+
+
+
+  <!--Pricing Toggle-->
+  <div class="section" id="section-pricing">
+    <div class="container">
+      <!-- <div class="row">
+        <div class="col-12">
+          <p class="section__description">
+            In case of purchasing a 1-year package, you will receive 2 months of service for free!
+          </p>
+        </div>
+      </div>
+      <div class="row pricing pricing--toggle">
+        <div class="col-12">
+          <div class="toggle-checkbox">
+            <input class="toggle-checkbox__input" type="checkbox" id="pricing-toggle" />
+            <span class="toggle-checkbox__left">Monthly</span>
+            <label class="toggle-checkbox__input-label" for="pricing-toggle">Toggle</label>
+            <span class="toggle-checkbox__right">Yearly</span>
+          </div>
+        </div>
+        <div class="col-4 col-t-12">
+          <div class="pricing__card card">
+            <h4 class="pricing__card-title">Pointer 2</h4>
+            <p class="first-info">For startups and small businesses</p>
+            <p class="pricing__card-price pricing__card-price--year">890 ₾</p>
+            <p class="pricing__card-price pricing__card-price--month">89 ₾</p>
+            <p class="pricing__card-price--per-month">Annual payment</p>
+            <div class="pricing__card-price-save-wrap">
+              <p class="pricing__card-price-save">2 month for free</p>
+              <hr class="pricing__hr">
+            </div>
+            <div class="pricing__opportunities">
+              <p>2 active vacancies</p>
+              <p>Unlimited accounts</p>
+              <p>24/7 support</p>
+            </div>
+            <a href="https://app.pointer.ge/recruiter-profile/settings/subscription" target="_blank"
+              class="site-btn site-btn--light">sign up</a>
+          </div>
+        </div>
+        <div class="col-4 col-t-12">
+          <div class="pricing__card card">
+            <h4 class="pricing__card-title pricing__card-title--accent">Pointer 5</h4>
+            <p class="first-info">For the average business that is steadily looking for new employees</p>
+            <p class="pricing__card-price pricing__card-price--year">1,390 ₾</p>
+            <p class="pricing__card-price pricing__card-price--month">139 ₾</p>
+            <p class="pricing__card-price--per-month">Annual payment</p>
+            <div class="pricing__card-price-save-wrap">
+              <p class="pricing__card-price-save">2 month for free</p>
+              <hr class="pricing__hr">
+            </div>
+            <div class="pricing__opportunities">
+              <p>5 active vacancies</p>
+              <p>Unlimited accounts</p>
+              <p>24/7 support</p>
+            </div>
+            <a href="https://app.pointer.ge/recruiter-profile/settings/subscription" ctarget="_blank"
+              class="site-btn site-btn--accent">sign up</a>
+          </div>
+        </div>
+        <div class="col-4 col-t-12">
+          <div class="pricing__card card">
+            <h4 class="pricing__card-title">Pointer 10</h4>
+            <p class="first-info">For large companies and recruiting agencies that constantly have open vacancies for
+              various positions
+            </p>
+            <p class="pricing__card-price pricing__card-price--year">1,890 ₾</p>
+            <p class="pricing__card-price pricing__card-price--month">189 ₾</p>
+            <p class="pricing__card-price--per-month">Annual payment</p>
+            <div class="pricing__card-price-save-wrap">
+              <p class="pricing__card-price-save">2 month for free</p>
+              <hr class="pricing__hr">
+            </div>
+            <div class="pricing__opportunities">
+              <p>10 active vacancies</p>
+              <p>Unlimited accounts</p>
+              <p>24/7 support</p>
+            </div>
+            <a href="https://app.pointer.ge/recruiter-profile/settings/subscription" target="_blank"
+              class="site-btn site-btn--light">sign up</a>
+          </div>
+        </div>
+      </div> -->
+      <div class="row">
+        <div class="col-12">
+          <p class="section__description">
+            Pointer has packages tailored to the scale and needs of any business. Choose the right plan for your
+            business and get a
+            14-day trial period for free!
+          </p>
+        </div>
+      </div>
+      <hr>
+    </div>
+  </div>
+  <!--Pricing Toggle-->
+
+  <!--Integrate-->
+  <section class="section">
+    <div class="container">
+      <!-- <div class="row">
+        <div class="col-12">
+          <h3 class="section__title">Do you need more?</h3>
+        </div>
+      </div> -->
+      <div class="row integrate integrate--calculator">
+        <div class="col-12">
+          <div class="integrate__card card">
+            <div class="intagrate__logo">
+              <div class="integrate__logo-svg">
+                <img src="assets/img/popint-logo-icon.svg" alt="" width="48" height="48">
+              </div>
+              <p class="integrate__logo-title">Customized for you</p>
+            </div>
+            <p class="integrate__description">
+              Your needs are not covered by packages above?<br />
+              Request an offer with additional functionality and integrations.<br />
+              Leave us your number and our sales manager will contact you shortly.
+            </p>
+            <a href="javascript:void(Tawk_API.toggle())" class="site-btn site-btn--accent">contact us</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--Integrate-->
+  <!--Pricing-->
+
+
+
+  <!--Download-->
+  <section class="section section--last">
+    <p class="section__description">
+    <div class="pricing--select-btns text-center">
+      <a class="site-btn site-btn--accent" href="https://app.pointer.ge/Identity/Account/Register" target="_blank">Try
+        for free</a>
+      <!-- <a class="site-btn site-btn--light" href="#">learn more</a> -->
+    </div>
+    </p>
+    <!--  <div class="container download">
+      <div class="row">
+        <div class="col-12">
+          <h3 class="download__title">Download Sigma today</h3>
+          <h3>and get started with a free trial for your business</h3>
+        </div>
+      </div>
+      <div class="row download__btns">
+        <div class="col-6">
+          <a href="https://app.pointer.ge/Identity/Account/Register" target="_blank" class="site-btn site-btn--accent site-btn--right download__btn-first">
+            Start Using for Free</a>
+        </div>
+        <div class="col-6">
+          <a href="05_features.html" class="site-btn site-btn--light site-btn--left">
+            Explore Features</a>
+        </div>
+      </div>
+    </div>-->
+    <img alt="" class="section__img" src="assets/img/img_bg_clouds.png">
+  </section>
+  <!--Download-->
+
+  <div class="footerId"></div>
+
+  <script src="assets/js/vendor/jquery-2.2.4.min.js"></script>
+  <script src="assets/js/vendor/jquery.waypoints.js"></script>
+  <script src="assets/js/menu.js"></script>
+  <script src="assets/js/mobile-menu.js"></script>
+  <script src="assets/js/vendor/jquery-ui.min.js"></script>
+  <script src="assets/js/pricing.js"></script>
+  <script src="assets/js/vendor/slick.min.js"></script>
+  <script src="assets/js/vendor/dragscrollable.min.js"></script>
+  <script src="assets/js/vendor/device.js"></script>
+  <script src="assets/js/carousel.js"></script>
+
+
+  <script>
+    $(function () {
+      // $(".menuId").load("menu-eng.html");
+      $(".footerId").load("footer-eng.html");
+    });
+
+  </script>
+
+</body>
+
+</html>

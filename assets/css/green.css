@@ -1818,7 +1818,7 @@ h6 {
   width: 490px;
   font-size: 18px;
   line-height: 36px;
-  margin-bottom:30px;
+  margin-bottom: 30px;
   transition: all 0.3s;
 }
 .header-home .header-home__description--big {
@@ -2896,6 +2896,15 @@ h6 {
 }
 .about-app .about-app__description-content--left {
   margin-left: auto;
+}
+
+.about-app ul li::before {
+  content: "\2022";
+  color: #42cea9;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
 }
 .about-app .about-app__description-title {
   margin: 35px 0;
