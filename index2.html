@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="referrer" content="no-referrer-when-downgrade">
+  <meta name="facebook-domain-verification" content="u51ceo59es6m8l9vn54uhc2nd9qboy" />
+  <!-- <link rel="stylesheet" href="assets/css/main.css" id="main_style"> -->
+  <link rel="stylesheet" href="assets/css/green.css" id="main_style">
+  <link href="https://fonts.googleapis.com/css?family=Nunito:300,400,800" rel="stylesheet">
+  <link href="https://cdn.materialdesignicons.com/2.0.46/css/materialdesignicons.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/jquery-ui.min.css">
+  <title>Pointer</title>
+  <link rel="icon" href="assets/img/Logo_32x32.ico" type="image/png">
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-L1FNN5BCWW"></script>
+  <!-- Facebook Pixel Code -->
+  <script>
+    !function (f, b, e, v, n, t, s) {
+      if (f.fbq) return; n = f.fbq = function () {
+        n.callMethod ?
+          n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+      };
+      if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
+      n.queue = []; t = b.createElement(e); t.async = !0;
+      t.src = v; s = b.getElementsByTagName(e)[0];
+      s.parentNode.insertBefore(t, s)
+    }(window, document, 'script',
+      'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '309650394005630');
+    fbq('track', 'PageView');
+  </script>
+  <noscript><img height="1" width="1" style="display:none"
+      src="https://www.facebook.com/tr?id=309650394005630&ev=PageView&noscript=1" /></noscript>
+  <!-- End Facebook Pixel Code -->
+
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'G-L1FNN5BCWW');
+  </script>
+</head>
+
+<body>
+  <!--Main menu-->
+  <!-- <div class="menuId"></div> -->
+  <div class="menu">
+    <div class="container menu__wrapper">
+      <div class="row">
+        <div class="menu__logo menu__item">
+          <a href="index.html">
+            <img src="assets/img/logo.svg" alt="poinetr.ge" class="menu__logo-img">
+            <img src="assets/img/popint-logo-icon.svg" alt="poinetr.ge" class="menu__logo-icon">
+          </a>
+        </div>
+        <div class="menu__item d-t-none">
+          <nav class="menu__center-nav">
+            <ul>
+              <li>
+                <div class="menu__dropdown">
+                  <a class="link link--gray menu__dropdown-btn" href="index.html">მთავარი
+                  </a>
+                </div>
+              </li>
+              <li><a href="#section-pricing" class="link link--gray">ფასები</a></li>
+              <li><a href="source.html" class="link link--gray">სორსინგი</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div class="menu__item">
+          <nav class="menu__right-nav d-l-none">
+            <ul>
+              <li><a href="https://app.pointer.ge/Identity/Account/Register" target="_blank"
+                  class="site-btn site-btn--accent">სცადე უფასოდ</a></li>
+              <li><a href="https://app.pointer.ge/Identity/Account/Login" target="_blank"
+                  class="site-btn site-btn--light"> შესვლა</a></li>
+              <li>
+                <a class="link link--gray link--gray-active pl-20" href="index-eng.html">En</a>
+                <div class="menu__dropdown d-t-none">
+              </li>
+            </ul>
+          </nav>
+          <div class="d-none d-t-block">
+            <button type="button" class="menu__mobile-button">
+              <span><i class="mdi mdi-menu" aria-hidden="true"></i></span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--Mobile menu-->
+  <div class="mobile-menu d-none d-t-block">
+    <div class="container">
+      <div class="mobile-menu__logo">
+        <img src="assets/img/popint-logo-icon.svg" alt="poinetr.ge" width="48" height="48">
+      </div>
+      <button type="button" class="mobile-menu__close">
+        <span><i class="mdi mdi-close" aria-hidden="true"></i></span>
+      </button>
+      <nav class="mobile-menu__wrapper">
+        <ul class="mobile-menu__ul">
+          <li class="mobile-menu__li mobile-menu__li-collapse"><a class="link link--dark-gray">მთავარი
+              <!-- <span><i class="mdi mdi-chevron-down"></i></span> -->
+            </a></li>
+          <li class="mobile-menu__li"><a href="#section-pricing" class="link link--dark-gray">ფასები</a></li>
+          <li class="mobile-menu__li mobile-menu__li-collapse"><a class="link link--gray link--gray-active"
+              href="index-eng.html">En</a></li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+
+  <!--Header-->
+  <header class="header-home header-home--color">
+    <div class="container">
+      <h3 class="header-home_title-center">პოინტერი რეკრუტერების ერთგული მეგობარი!</h3>
+      <div class="row header-home__webapp-img-wrap">
+
+        <img alt="" class="header-home__webapp-img" src="assets/img/img_bg_webapp_1.png">
+
+        <div class="col-12">
+          <h3 class="header-home__title">მარტივი და ხელმისაწვდომი შერჩევის პლატფორმა შენი ბიზნესისთვის!</h3>
+          <p class="header-home__description header-home__description--webapp">პოინტერი არის ქლაუდ გადაწყვეტილება,
+            რომელიც ერთ
+            სივრცეში გთავაზობს ყველაფერს, რაც გჭირდება კანდიდატის შერჩევისთვის.</p>
+
+          <p class="header-home__description header-home__description--webapp" style="font-weight: 700;">
+            დაჯავშნე 15 წუთიანი პრეზენტაცია ჩვენ გუნდთან და გამოსცადე პოინტერის ყველა შესაძლებლობა.</p>
+
+          <div class="header-home__btns header-home__btns-webapp">
+            <a href="https://calendly.com/zencode/gettoknow" target="_blank"
+              class="site-btn site-btn--accent header-home__btn">მოითხოვე
+              დემო</a>
+            <a href="https://app.pointer.ge/Identity/Account/Register" target="_blank"
+              class="site-btn site-btn--invert header-home__btn">სცადე უფასოდ</a>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!--Header-->
+
+
+  <!--What is-->
+  <section class="section section--first">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <h3 class="section__title">შეცვალე რეკრუტინგის რუტინა ავტომატიზაციით და
+            დახარჯე დრო მხოლოდ მნიშვნელოვან საკითხებზე!</h3>
+          <p class="section__description">პოინტერი აერთიენებს სოციალურ და პროფესიულ ქსელებს, დასაქმების პორტალებს და
+            წარმოადგენს ყველაზე ინტუიტიურ და თანამედროვე
+            მიდევნების საშუალებას, რათა ადვილად მიწვდე საუკეთესო კანდიდატებს შენი ვაკანსიისთვის.</p>
+        </div>
+      </div>
+      <div class="row about-app">
+        <div class="col-6 about-app__description">
+          <div class="about-app__description-content about-app__description-content--left">
+            <i class="mdi mdi-folder"></i>
+            <h4 class="about-app__description-title">ვაკანსიების მართვა:</h4>
+            <ul>
+              <li>ვაკანსიის შექმნა წინასწარ გამზადებული შბლონებით</li>
+              <li>წინასწარი გრაფიკის შედგენა ვაკანსიის გამოქვეყნებისთვის და დახურვისთვის</li>
+              <li>შიდა და გარე ვაკანსიების გამოქვეყნების შესაძლებლობა</li>
+              <li>ვაკანსიისთვის თეგების განსაზღვრა და თეგებით ძებნა</li>
+              <li>ვაკანსიებისთვის ინდივიდუალური სააპლიკაციო ფორმის შექმნა</li>
+              <li>ერთი ქლიქით გამოაქვეყნო ვაკანსიები
+                jobs.ge, hr.ge, candidate.ge</li>
+              <li>სოციალურ ქსელში ვაკანსიის გაზიარება</li>
+              <li>ვაკანსიის კლონირება</li>
+              <li>ვაკანსიაზე ყველა აქტივობების შეტყობინება, როგორიც არის: განაცხადის შემოტანა, ეტაპებზე გადაყვანა
+                და
+                ა.შ.</li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-6 about-app__img">
+          <div class="about-app__img-wrap">
+            <img alt="" src="assets/img/screen/img_feature_screen_2.png">
+          </div>
+        </div>
+      </div>
+      <div class="row about-app about-app--reverse">
+        <div class="col-6 about-app__description">
+          <div class="about-app__description-content">
+            <i class="mdi mdi-file-find"></i>
+            <h4 class="about-app__description-title">აპლიკაციის მართვა</h4>
+            <ul>
+              <li>ინდივიდუალური ეტაპების განსაზღვრა</li>
+              <li>მიღებული განაცხადების მონიტორინგი </li>
+              <li>კონკრეტული საკვანძო სიტყვების ძებნა შემოსულ აპლიკაციებში</li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-6 about-app__img about-app__img--left">
+          <div class="about-app__img-wrap">
+            <img alt="" src="assets/img/screen/img_feature_screen_3.png">
+          </div>
+        </div>
+      </div>
+      <div class="row about-app">
+        <div class="col-6 about-app__description">
+          <div class="about-app__description-content about-app__description-content--left">
+            <i class="mdi mdi-account-box"></i>
+            <h4 class="about-app__description-title">კანდიდატების მართვა:</h4>
+            <ul>
+              <li>კანდიდატისთვის თეგების განსაზღვრა და თეგებით ძებნა</li>
+              <li>კანდიდატის გაზიარება გარე პირისთვის </li>
+              <li>პროფილის რედაქტირება რეკრიუტერის მიერ</li>
+              <li>კანდიდატის წინასწარ შექმნილ ჯგუფში გაწევრიანება</li>
+              <li>კანდიდატის დისკვალიფიკაცია</li>
+              <li>დისკვალიფიკაციის მიზეზების დაფიქსირება</li>
+              <li>კონკრეტული კანდიდატის ვაკანსიაზე დამატება</li>
+              <li>ყველა ვაკანსიის ნახვა, რომელზეც განაცხადი გააკეთა კანდიდატმა</li>
+              <li>კონკრეტული კანდიდატის ვაკანსიაზე დამატება</li>
+              <li>ჩანაწერის გაკეთება, ელფოსტის გაგზავნა, შეხვედრების ჩანიშვნა, შეფასებების გაკეთება, სამუშაო
+                ფაილების მიბმა</li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-6 about-app__img">
+          <div class="about-app__img-wrap">
+            <img alt="" src="assets/img/screen/img_feature_screen_4.png">
+          </div>
+        </div>
+      </div>
+      <div class="row about-app about-app--reverse">
+        <div class="col-6 about-app__description">
+          <div class="about-app__description-content">
+            <i class="mdi mdi-account-search"></i>
+            <h4 class="about-app__description-title">სორსინგი:</h4>
+            <ul>
+              <li>მალე დაემატება</li>
+              <li>linkedin-ზე მოძებნილი კანდიდატის მონაცმების ინტეგრირება მხოლოდ ბმულის კოპირებით</li>
+              <li>კანდიდატების ავტომატური დამატება ელ-ფოსტაზე მიღებული CV-თ</li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-6 about-app__img about-app__img--left">
+          <div class="about-app__img-wrap">
+            <img alt="" src="assets/img/screen/img_feature_screen_1.png">
+          </div>
+        </div>
+      </div>
+      <div class="row about-app">
+        <div class="col-6 about-app__description">
+          <div class="about-app__description-content about-app__description-content--left">
+            <i class="mdi mdi-account-multiple"></i>
+            <h4 class="about-app__description-title">კანდიდატ პორტალი</h4>
+            <ul>
+              <li>ყველა გამოცხადებული ვაკანსია ერთ სივრცეში</li>
+              <li>ვაკანსიების ძებნა</li>
+              <li>პორტალიდან განაცხადის გაკეთება</li>
+              <li>კანდიდატ პორტალი ბრენდირება</li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-6 about-app__img">
+          <div class="about-app__img-wrap">
+            <img alt="" src="assets/img/screen/img_feature_screen_8.png">
+          </div>
+        </div>
+      </div>
+      <hr>
+    </div>
+  </section>
+  <!--What is-->
+
+
+  <!--What is-->
+  <section class="section">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <!-- <h3 class="section__title">What is Sigma?</h3> -->
+          <div class="section__description">
+            <p>კანდიდატთა შერჩევის პროცესი არის ყველაზე რთული, დროში გაწელილი და დამღლელი სამუშაო ნებისმიერი
+              რეკრუტერისთვის,
+              განსაკუთრებით მაშინ, თუ რამდენიმე განსხვავებულ პოზიციაზე არის ვაკანსია გამოცხადებული.
+            </p>
+            <p>თუმცა პოინტერის დახმარებით საქმე ბევრად სწრაფად და ეფექტურად კეთდება.</p>
+          </div>
+        </div>
+      </div>
+      <hr>
+    </div>
+  </section>
+  <!--What is-->
+
+  <!--Pricing Toggle-->
+  <div class="section" id="section-pricing">
+    <div class="container">
+      <!-- <div class="row">
+        <div class="col-12">
+          <p class="section__description">
+            1 წლიანი პაკეტის შეძენის შემთხვევაში 2 თვიან მომსახურებას მიიღებ საჩუქრად
+          </p>
+        </div>
+      </div>
+      <div class="row pricing pricing--toggle">
+        <div class="col-12">
+          <div class="toggle-checkbox">
+            <input class="toggle-checkbox__input" type="checkbox" id="pricing-toggle" />
+            <span class="toggle-checkbox__left">ყოველთვიური</span>
+            <label class="toggle-checkbox__input-label" for="pricing-toggle">Toggle</label>
+            <span class="toggle-checkbox__right">წლიური</span>
+          </div>
+        </div>
+        <div class="col-4 col-t-12">
+          <div class="pricing__card card">
+            <h4 class="pricing__card-title">პოინტერი 2</h4>
+            <p class="first-info">სტარტაპებისა და მცირე ბიზნესებისთვის</p>
+            <p class="pricing__card-price pricing__card-price--year">890 ₾</p>
+            <p class="pricing__card-price pricing__card-price--month">89 ₾</p>
+            <p class="pricing__card-price--per-month">ერთიანი გადახდა</p>
+            <div class="pricing__card-price-save-wrap">
+              <p class="pricing__card-price-save">2 თვე უფასო</p>
+              <hr class="pricing__hr">
+            </div>
+            <div class="pricing__opportunities">
+              <p>2 აქტიური ვაკანსია</p>
+              <p>შეუზღუდავი ანგარიშები</p>
+              <p>24/7 ზე მხარდაჭერა</p>
+            </div>
+            <a href="https://app.pointer.ge/Identity/Account/Register?returnUrl=%2Fconnect%2Fauthorize%2Fcallback%3Fclient_id%3DCandidateManagement.WebUIAdmin%26redirect_uri%3Dhttps%253A%252F%252Fapp.pointer.ge%252Fauthentication%252Flogin-callback%26response_type%3Dcode%26scope%3DCandidateManagement.WebUIAdminAPI%2520openid%2520profile%26state%3D48c3483e30764b9db97cba27d9c88f12%26code_challenge%3DkCNoUFYh-dBIJSUI-mnjbCDdm7kTx2LyXxvPfrX4jGM%26code_challenge_method%3DS256%26response_mode%3Dquery"
+              target="_blank" class="site-btn site-btn--light">რეგისტრაცია</a>
+          </div>
+        </div>
+        <div class="col-4 col-t-12">
+          <div class="pricing__card card">
+            <h4 class="pricing__card-title pricing__card-title--accent">პოინტერი 5</h4>
+            <p class="first-info">საშუალო ბიზნესისთვის, რომელიც სტაბილურად ეძებს ახალ თანამშრომლებს</p>
+            <p class="pricing__card-price pricing__card-price--year">1,390 ₾</p>
+            <p class="pricing__card-price pricing__card-price--month">139 ₾</p>
+            <p class="pricing__card-price--per-month">ერთიანი გადახდა</p>
+            <div class="pricing__card-price-save-wrap">
+              <p class="pricing__card-price-save">2 თვე უფასო</p>
+              <hr class="pricing__hr">
+            </div>
+            <div class="pricing__opportunities">
+              <p>5 აქტიური ვაკანსია</p>
+              <p>შეუზღუდავი ანგარიშები</p>
+              <p>24/7 ზე მხარდაჭერა</p>
+            </div>
+            <a href="https://app.pointer.ge/Identity/Account/Register?returnUrl=%2Fconnect%2Fauthorize%2Fcallback%3Fclient_id%3DCandidateManagement.WebUIAdmin%26redirect_uri%3Dhttps%253A%252F%252Fapp.pointer.ge%252Fauthentication%252Flogin-callback%26response_type%3Dcode%26scope%3DCandidateManagement.WebUIAdminAPI%2520openid%2520profile%26state%3D48c3483e30764b9db97cba27d9c88f12%26code_challenge%3DkCNoUFYh-dBIJSUI-mnjbCDdm7kTx2LyXxvPfrX4jGM%26code_challenge_method%3DS256%26response_mode%3Dquery"
+              target="_blank" class="site-btn site-btn--accent">რეგისტრაცია</a>
+          </div>
+        </div>
+        <div class="col-4 col-t-12">
+          <div class="pricing__card card">
+            <h4 class="pricing__card-title">პოინტერი 10</h4>
+            <p class="first-info">დიდი კომპანიებისა და რეკრუტინგ სააგენტოებისთვის, რომლებსაც მუდმივად აქვთ ღია
+              ვაკანსიები სხვადასხვა
+              პოზიციებზე
+            </p>
+            <p class="pricing__card-price pricing__card-price--year">1,890 ₾</p>
+            <p class="pricing__card-price pricing__card-price--month">189 ₾</p>
+            <p class="pricing__card-price--per-month">ერთიანი გადახდა</p>
+            <div class="pricing__card-price-save-wrap">
+              <p class="pricing__card-price-save">2 თვე უფასო</p>
+              <hr class="pricing__hr">
+            </div>
+            <div class="pricing__opportunities">
+              <p>10 აქტიური ვაკანსია</p>
+              <p>შეუზღუდავი ანგარიშები</p>
+              <p>24/7 ზე მხარდაჭერა</p>
+            </div>
+            <a href="https://app.pointer.ge/Identity/Account/Register?returnUrl=%2Fconnect%2Fauthorize%2Fcallback%3Fclient_id%3DCandidateManagement.WebUIAdmin%26redirect_uri%3Dhttps%253A%252F%252Fapp.pointer.ge%252Fauthentication%252Flogin-callback%26response_type%3Dcode%26scope%3DCandidateManagement.WebUIAdminAPI%2520openid%2520profile%26state%3D48c3483e30764b9db97cba27d9c88f12%26code_challenge%3DkCNoUFYh-dBIJSUI-mnjbCDdm7kTx2LyXxvPfrX4jGM%26code_challenge_method%3DS256%26response_mode%3Dquery"
+              target="_blank" class="site-btn site-btn--light">რეგისტრაცია</a>
+          </div>
+        </div>
+      </div> -->
+      <div class="row">
+        <div class="col-12">
+          <p class="section__description">
+            Pointer-ს აქვს ნებისმიერი ბიზნესის მასშტაბსა და საჭიროებებზე მორგებული პაკეტები. არჩიეთ თქვენი ბიზნესისთვის
+            შესაფერისი
+            გეგმა და მიიღეთ 14 დღიანი საცდელი პერიოდი უფასოდ!
+          </p>
+        </div>
+      </div>
+      <hr>
+    </div>
+  </div>
+  <!--Pricing Toggle-->
+
+  <!--Integrate-->
+  <section class="section">
+    <div class="container">
+      <!-- <div class="row">
+        <div class="col-12">
+          <h3 class="section__title">გჭირდება უფრო მეტი?</h3>
+        </div>
+      </div> -->
+      <div class="row integrate integrate--calculator">
+        <div class="col-12">
+          <div class="integrate__card card">
+            <div class="intagrate__logo">
+              <div class="integrate__logo-svg">
+                <img src="assets/img/popint-logo-icon.svg" alt="" width="48" height="48">
+              </div>
+              <p class="integrate__logo-title">თქვენზე მორგებული</p>
+            </div>
+            <p class="integrate__description">
+              ზემოთ მოცემული პაკეტები ვერ ფარავს თქვენს საჭიროებებს?<br />
+              მოითხოვეთ თქვენს მოთხოვნებზე მორგებული შეთავაზება, დამატებითი ფუნქციონალით და ინტეგრაციებით.<br />
+              დაგვიტოვეთ თქვენი ნომერი და ჩვენი გაყიდვების წარმომადგენელი მალევე დაგიკავშირდებათ.
+            </p>
+            <a href="javascript:void(Tawk_API.toggle())" class="site-btn site-btn--accent">დაგვიკავშირდით</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--Integrate-->
+
+  <!--Trusted by-->
+  <section class="section section--light">
+    <div class="container">
+      <div class="row logo">
+        <div class="col-12">
+          <div class="logo__row ">
+            <p class="section__title">Used by over 1,000,000 people worldwide</p>
+            <div class="logo__logos">
+              <img alt="" class="logo__img-mini" src="assets/img/img_logo_blue_1.png">
+              <img alt="" class="logo__img-mini" src="assets/img/img_logo_blue_2.png">
+              <img alt="" class="logo__img-mini" src="assets/img/img_logo_blue_3.png">
+              <img alt="" class="logo__img-mini" src="assets/img/img_logo_blue_4.png">
+              <img alt="" class="logo__img-mini" src="assets/img/img_logo_blue_5.png">
+              <img alt="" class="logo__img-mini" src="assets/img/img_logo_blue_6.png">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+  <!--Trusted by -->
+
+  <!--Download-->
+  <section class="section section--first">
+    <div class="container download">
+      <div class="row">
+        <div class="col-12">
+          <h3 class="download__title">"Your Recruitment, Any Device: Pointer's Responsive Design Revolutionizes Hiring!"
+          </h3>
+          <h3>"Recruit Smarter On-the-Go! Pointer Ensures Seamless Candidate Management Anytime, Anywhere. Stay Nimble,
+            Stay Ahead!"</h3>
+        </div>
+      </div>
+      <div class="row download__btns">
+        <div class="pricing--select-btns text-center" style="margin: auto;">
+          <a class="site-btn site-btn--accent" href="https://app.pointer.ge/Identity/Account/Register"
+            target="_blank">Mobile
+            Friendly</a>
+        </div>
+      </div>
+    </div>
+    <img alt="" class="section__img down-img" src="assets/img/Senior_Marketer.png">
+  </section>
+  <!--Download-->
+
+  <section>
+    <img alt="" class="section__img" src="assets/img/img_bg_clouds.png">
+  </section>
+
+
+  <div class="footerId"></div>
+  <div id="cookieNotice" class="light display-right cookieNotice" style="display: none;">
+    <div id="closeIcon" style="display: none;">
+    </div>
+    <!-- <div class="title-wrap">
+      <h4>Cookie Consent</h4>
+    </div> -->
+    <div class="content-wrap">
+      <div class="msg-wrap">
+        <p>This website uses cookies or similar technologies, to enhance your browsing experience and provide
+          personalized
+          recommendations. By continuing to use our website, you agree to our<a style="color:#115cfa;"
+            href="privacy-policy.html">
+            Privacy policy</a> and <a style="color:#115cfa;" href="terms-services.html">
+            Terms & services
+          </a></p>
+        <button class="site-btn site-btn--accent" onclick="acceptCookieConsent();">Accept</button>
+      </div>
+    </div>
+  </div>
+  <script src="assets/js/vendor/jquery-2.2.4.min.js"></script>
+  <script src="assets/js/vendor/jquery.waypoints.js"></script>
+  <script src="assets/js/menu.js"></script>
+  <script src="assets/js/mobile-menu.js"></script>
+  <script src="assets/js/vendor/jquery-ui.min.js"></script>
+  <script src="assets/js/pricing.js"></script>
+  <script src="assets/js/vendor/slick.min.js"></script>
+  <script src="assets/js/vendor/dragscrollable.min.js"></script>
+  <script src="assets/js/vendor/device.js"></script>
+  <script src="assets/js/carousel.js"></script>
+  <script src="assets/js/cookie-consent.js"></script>
+
+  <script>
+    $(function () {
+      // $(".menuId").load("menu.html");
+      $(".footerId").load("footer.html");
+    });
+
+  </script>
+
+</body>
+
+</html>

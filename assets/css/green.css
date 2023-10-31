@@ -2169,6 +2169,13 @@ h6 {
 .section .section__img {
   width: 100%;
 }
+
+.section .down-img {
+  width: 350px !important;
+  margin: auto;
+  display: block;
+}
+
 .section.section--bottom-space {
   margin-bottom: 128px;
 }
@@ -2859,6 +2866,10 @@ h6 {
 .about-app {
   padding-top: 223px;
   margin-top: -95px;
+}
+.about-app .mdi {
+  font-size: 48px;
+  color: #20d4b6;
 }
 .about-app .about-app__img {
   text-align: center;
