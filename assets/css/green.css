@@ -2235,6 +2235,13 @@ h6 {
     -o-object-fit: cover;
     object-fit: cover;
   }
+
+  .section .down-img {
+    width: auto;
+    height: auto !important;
+    -o-object-fit: cover;
+    object-fit: cover;
+  }
   .section.section--half.section--bottom-space {
     padding-bottom: 70px;
   }
