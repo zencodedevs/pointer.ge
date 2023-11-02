@@ -2574,7 +2574,7 @@ h6 {
 }
 .download .download__btns {
   margin-top: 70px;
-  margin-bottom: 60px;
+  margin-bottom: 0;
   text-align: center;
 }
 @media screen and (max-width: 768px) {
