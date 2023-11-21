@@ -101,11 +101,11 @@ section {
     padding:60px;
 } */
 
-.row::after {
+/* .row::after {
   content: "";
   display: table;
   clear: both;
-}
+} */
 
 /*.col-33, .col-40, or .col-60 should be immediate children of .row */
 .col-33 {
